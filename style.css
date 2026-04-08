@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(jupiter.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    border: 1px solid white;
+    border-radius: 20px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    width: 500px;
+    height: auto;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 15px;
+}
+
+h1{
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+}
+
+p{
+    font-size: 20px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+input{
+  width: 400px;  
+  height: 50px;
+  padding-left: 20px;
+  background: transparent;
+  border-bottom: 2px solid white;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  
+}
+
+input::placeholder{
+    font-size: 15px;
+    color: white;
+}
+
+input::placeholder:hover{
+    background: grey;
+}
+
+button{
+    width: 100px;
+    height: auto;
+    margin-top: 30px;
+    background: transparent;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+    box-shadow: 1px 1px 10px;
+}
+
+button:hover{
+    background-color:  rgb(134, 126, 126);
+    color: black;
+    transition: 0.7s;
+}
